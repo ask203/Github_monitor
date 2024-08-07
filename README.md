@@ -30,23 +30,23 @@ This application monitors activities happening on specified GitHub repositories 
 #### 1 - Clone the project
 
 ```bash
-  git clone https://github.com/ask203/github_monitor.git
+git clone https://github.com/ask203/github_monitor.git
 ```
 #### 2 - Create a Virtual Environment
 ```bash
-  python3 -m venv venv
-  source venv/bin/activate
+python3 -m venv dev
+source dev/bin/activate
 ```
 ####  3 - Go to the project directory
 
 ```bash
-  cd github_monitor
+cd github_monitor
 ```
 
 #### 4 - Install dependencies
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 #### 5 - Set Up Environment Variables
@@ -54,7 +54,7 @@ This application monitors activities happening on specified GitHub repositories 
 Create a .env file in the root directory and add your GitHub token
 
 ```bash
-  GITHUB_TOKEN=your_github_token
+GITHUB_TOKEN=your_github_token
 ```
 #### 6 - Configure Repositories and Interval
 
