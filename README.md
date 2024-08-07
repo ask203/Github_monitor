@@ -54,7 +54,7 @@ pip install -r requirements.txt
 Create a .env file in the root directory and add your GitHub token
 
 ```bash
-GITHUB_TOKEN=your_github_token
+GITHUB_TOKEN="your_github_token"
 ```
 #### 6 - Configure Repositories and Interval
 
